@@ -6,6 +6,7 @@ const AddToCart = ({ productId }: { productId: string }) => {
       add to cart
     </Button>
   );
+  console.log(productId);
 };
 
 export default AddToCart;
