@@ -3,7 +3,7 @@ import ProductsContainer from "@/components/products/ProductsContainer";
 function ProductsPage({
   searchParams,
 }: {
-  searchParams: { layout?: string; search?: string };
+  searchParams: { [key: string]: string };
 }) {
   const layout = searchParams.layout || "grid";
   const search = searchParams.search || "";
